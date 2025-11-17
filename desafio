@@ -1,0 +1,35 @@
+def paint_letterboxes(start, finish):
+    
+    count=[0]*10
+    for i in range(start,finish+1):
+        lista=  list(str(start))
+        for i in range(len(lista)):
+            if ("0" in lista[i]):
+                count[0]+=1
+            if ("1" in lista[i]):
+                count[1]+=1
+            if ("2" in lista[i]):
+                count[2]+=1
+            if ("3" in lista[i]):
+                count[3]+=1
+            if ("4" in lista[i]):
+             count[4]+=1
+            if ("5" in lista[i]):
+                count[5]+=1
+            if ("6" in lista[i]):
+                count[6]+=1
+            if ("7" in lista[i]):
+                count[7]+=1
+            if ("8" in lista[i]):
+                count[8]+=1
+            if ("9" in lista[i]):
+                count[9]+=1
+            
+        
+        
+        start+=1
+
+    print (count)
+    print(lista)    
+    return count
+paint_letterboxes(125, 132)
