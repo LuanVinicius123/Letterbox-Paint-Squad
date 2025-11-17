@@ -6,13 +6,21 @@ For start = 125, and end = 132
 The letterboxes are
 
 125 = 1, 2, 5
+
 126 = 1, 2, 6
+
 127 = 1, 2, 7
+
 128 = 1, 2, 8
+
 129 = 1, 2, 9
+
 130 = 1, 3, 0
+
 131 = 1, 3, 1
+
 132 = 1, 3, 2
+
 The digit frequencies are:
 
 0 is painted 1 time
