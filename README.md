@@ -24,8 +24,11 @@ The letterboxes are
 The digit frequencies are:
 
 0 is painted 1 time
+
 1 is painted 9 times
+
 2 is painted 6 times
+
 etc...
 and so the method would return [1,9,6,3,0,1,1,1,1,1]
 
